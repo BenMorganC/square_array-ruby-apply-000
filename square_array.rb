@@ -4,8 +4,7 @@ numbers = [1,2,3]
   new_numbers = []
   numbers.each do |number|
   number**2
-  return
-  
-  return new_numbers
+  new_numbers
    end
+   return
 end
