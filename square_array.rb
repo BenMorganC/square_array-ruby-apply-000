@@ -1,3 +1,7 @@
-def square_array(array)
-  # your code here
+numbers = [1,2,3]
+new_numbers = square_array(numbers)
+  def square_array(numbers)
+  numbers.each do |number|
+  puts "#{number**2}"
+   end
 end
